@@ -17,5 +17,5 @@ jobs:
       - name: Update Lambda
         run: |
           aws lambda update-function-code \
-            --function-name EventMonitorLambda \
+            --function-name EventMonitorLambda-Container \
             --image-uri 736116164296.dkr.ecr.ap-south-1.amazonaws.com/datagrokr-intern-devops:latest
